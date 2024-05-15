@@ -1,11 +1,5 @@
 import chalk from "chalk";
 
-export function getYearDifference(fromDate) {
-  var ageDifMs = Date.now() - fromDate;
-  var ageDate = new Date(ageDifMs);
-  return ageDate.getUTCFullYear() - 1970;
-}
-
 export const log = console.log;
 
 export const logNewLine = () => log("\n");
