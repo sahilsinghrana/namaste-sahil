@@ -1,5 +1,5 @@
 {
-  "name": "@sahilsinghrana/hellosahil",
+  "name": "hellosahil",
   "description": "Say Hello to Sahil",
   "version": "0.0.1",
   "homepage": "https://github.com/sahilsinghrana/hellosahil",
@@ -14,9 +14,6 @@
   },
   "private": false,
   "type": "module",
-  "scripts": {
-    "dev": "nodemon index.js"
-  },
   "bin": "./index.js",
   "dependencies": {
     "chalk": "^5.3.0"
