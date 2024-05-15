@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from "chalk";
 
 import { S_Introduction, contactMe } from "./strings.js";

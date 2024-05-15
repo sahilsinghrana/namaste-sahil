@@ -1,8 +1,8 @@
 {
-  "name": "hellosahil",
+  "name": "namaste-sahil",
   "description": "Say Hello to Sahil",
-  "version": "0.0.1",
-  "homepage": "https://github.com/sahilsinghrana/hellosahil",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sahilsinghrana/namaste-sahil",
   "author": {
     "name": "Sahil Singh Rana",
     "url": "https://github.com/sahilsinghrana",
@@ -10,11 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahilsinghrana/hellosahil"
+    "url": "https://github.com/sahilsinghrana/namaste-sahil"
   },
   "private": false,
   "type": "module",
-  "bin": "./index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "bin": {
+    "namaste-sahil": "index.js"
+  },
   "dependencies": {
     "chalk": "^5.3.0"
   }

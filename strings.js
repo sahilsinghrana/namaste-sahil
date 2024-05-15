@@ -3,7 +3,7 @@ import { getYearDifference, textWithLink } from "./utils.js";
 const diffDate = getYearDifference(new Date("07-19-2021")) + 1;
 
 export const S_Introduction = `
-Hi, I'm Sahil Singh Rana, a software developer with around ${diffDate} years of experience. 
+Hey, This is Sahil Singh Rana, a software developer with around ${diffDate} years of experience. 
 My expertise lies in JavaScript, CSS, ReactJs, and Node.js.
 I specialize in web development and am passionate about creating seamless and dynamic web applications.`;
 
