@@ -19,8 +19,5 @@
   },
   "bin": {
     "namaste-sahil": "index.js"
-  },
-  "dependencies": {
-    "chalk": "^5.3.0"
   }
 }

@@ -1,19 +1,18 @@
-import chalk from "chalk";
+import Logger from "./src/lib/colorizelog/index.js";
 
 export const log = console.log;
 
 export const logNewLine = () => log("\n");
 
-const logTitle = chalk.bgBlue.white.bold;
-const logTitleField = chalk.bgWhite.black;
 
-const logTitleAndValue = (title, value, ...rest) =>
+const logTitleAndValue = (title, value, ...rest) => {
   log(
-    logTitle(title),
-    chalk.black.bgGray("----"),
-    logTitleField(value),
+    Logger.bgBlue.white.bold.getString(title),
+    Logger.black.bgCyan.getString("----"),
+    Logger.bgWhite.black.getString(value),
     ...rest
-  );
+    )
+}
 
 export const logTitleValueTable = (data) => {
   let meta = {
@@ -55,5 +54,5 @@ export const logTitleValueTable = (data) => {
 };
 
 export const textWithLink = (text, url) => {
-  return [`${text} `, chalk.black.bgWhiteBright("" + url + " ")];
+  return [`${text} `, Logger.black.bgWhite.getString("" + url + " ")];
 };
