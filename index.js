@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import { S_Introduction, contactMe } from "./strings.js";
-import { log, logNewLine, logTitleValueTable } from "./utils.js";
+import { S_Introduction, contactMe } from "./src/strings.js";
+import { log, logNewLine, logTitleValueTable } from "./src/utils.js";
 
 import Logger from "./src/lib/colorizelog/index.js";
 

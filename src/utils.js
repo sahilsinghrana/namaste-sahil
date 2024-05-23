@@ -1,4 +1,4 @@
-import Logger from "./src/lib/colorizelog/index.js";
+import Logger from "./lib/colorizelog/index.js";
 
 export const log = console.log;
 
