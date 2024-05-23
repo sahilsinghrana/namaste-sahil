@@ -5,7 +5,7 @@ import { log, logNewLine, logTitleValueTable } from "./src/utils.js";
 
 import Logger from "./src/lib/colorizelog/index.js";
 
-Logger.white.bold.log(S_Introduction);
+Logger.green.bold.bgBlack.log(S_Introduction);
 logNewLine();
 Logger.bgBlack.white.log("Connect with me at:");
 logTitleValueTable(contactMe);
